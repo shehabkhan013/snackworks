@@ -1,0 +1,847 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 991.98px) {
+    .mobile-search {
+        display: block;
+        right: 85px;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 420px) {
+    .mobile-search input[type="search"]:focus {
+        width: 235px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-search {
+        right: 65px;
+    }
+    .mobile-search input[type="search"] {
+        height: 40px;
+        width: 40px;
+    }
+    .mobile-search input[type="search"]:focus {
+        height: 40px;
+    }
+    .snack-deatils-fetured-img img {
+        width: 100%;
+    }
+    .element-item-wrapper.product-deatils-item-wrapper.height-auto,
+    .element-item-wrapper.popular-product.height-auto {
+        height: auto !important;
+    }
+    .element-item-wrapper.popular-product.height-auto .element-title-left-position h2 a {
+        font-size: 21px !important;
+        line-height: 1;
+    }
+    .element-item-wrapper.popular-product.height-auto .video-time {
+        bottom: 15px;
+    }
+    .element-item-wrapper.popular-product.height-auto .element-title-left-position {
+        bottom: 27px;
+    }
+    .snack-brand-name.center-brand-name h2 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .snacks-header.show {
+        padding-top: 0;
+    }
+    .snacks-header {
+        transition: all .3s ease-in-out;
+    }
+    .snack-branding .container,
+    .snack-branding .container .col-md-5 {
+        padding: 0;
+    }
+    .owl-dots {
+        bottom: 16px;
+    }
+    .slider-title {
+        bottom: 60px;
+    }
+    .slider-title.all-recipe-title {
+        bottom: 30px;
+    }
+    .heart-link {
+        height: 32px;
+        width: 32px;
+        line-height: 28px;
+        top: 10px;
+        left: 10px;
+    }
+    .heart-link i {
+        font-size: 14px;
+    }
+    .snacks-header nav {
+        height: 60px;
+        z-index: 100;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: #4F2271;
+        background-image: url(../img/header-bg-mobile.png);
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    .snack-deatils-featurs.snack-deatils-recipe-feture .row .col-4.col-md-3,
+    .snack-deatils-featurs.snack-deatils-recipe-feture .row .col-4.col-md-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .snack-deatils-featurs {
+        padding: 10px;
+    }
+    .snack-single-feture.snack-single-feture-lg.mobile-custom {
+        margin-bottom: 0;
+    }
+    .snack-featured-deatils .recipe-fetured-product .container {
+        padding: 0 15px;
+    }
+    .snack-product-filter h2 {
+        float: none;
+    }
+    .snack-deatils-summary {
+        margin: 0 15px;
+    }
+    .snack-featured-deatils .container {
+        padding: 0;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .snack-deatils-featurs.product-feture .snack-single-feture.snack-single-feture-lg {
+        margin-top: 0;
+    }
+    .snack-single-feture-content p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .snack-single-feture h3 {
+        font-size: 18px !important;
+        letter-spacing: 0 !important;
+        line-height: 1 !important;
+    }
+    .snack-single-feture-content p {
+        line-height: 1 !important;
+        margin-top: 5px;
+    }
+    .snack-product-filter h2 {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .snack-oreo-related-product.section-padding {
+        padding-top: 50px;
+    }
+    .snack-deatils.mt-30 {
+        margin: 0;
+    }
+    .snack-deatils-featurs.product-feture {
+        margin-top: 30px;
+    }
+    .snack-deatils-area {
+        padding-top: 0;
+    }
+    .element-item-wrapper>img {
+        height: 165px;
+    }
+    .element-item-wrapper .cream-mobile {
+        height: 100%;
+    }
+    .col-md-6 .element-item-wrapper>img {
+        height: 100%;
+    }
+    .snack-footer.brand-promo-footer {
+        padding: 100px 0 25px;
+    }
+    .snack-oreo-evergreen-summary.brand-duplo-summary h1 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 7px;
+        padding-right: 20px;
+    }
+    .snack-brand-name.brand-name-right h2 {
+        color: #2C6DAA;
+        margin-top: 10px;
+    }
+    .snack-oreo-product.section-padding {
+        padding-bottom: 30px;
+    }
+    .snack-hero-info-bottom-img {
+        left: 5px;
+        bottom: -30px;
+        width: 142px;
+        height: 115px;
+    }
+    .snack-hero-video {
+        height: 325px;
+    }
+    .snack-oreo-evergreen-summary.brand-duplo-summary {
+        margin-top: -13px;
+    }
+    .snack-oreo-evergreen-summary.brand-duplo-summary p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .snack-hero-info.duplo-info-summary p {
+        margin-top: 10px;
+        padding-right: 9px;
+    }
+    .snack-hero-area.duplo-hero {
+        padding: 10px 0 40px;
+        height: 550px;
+        position: relative;
+        background-image: url(../img/hero/wiz-md.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-color: #000;
+    }
+    .snack-hero-area {
+        height: 535px;
+    }
+    .snack-hero-info.duplo-info-summary {
+        margin-top: 0;
+    }
+    .popular-product-btn-wrapper a {
+        margin-top: 15px;
+        margin-bottom: 60px;
+    }
+    .section-title h2 {
+        font-size: 26px;
+        letter-spacing: -0.67px;
+        line-height: 35px;
+    }
+    .popular-product {
+        height: 215px;
+        margin-bottom: 15px;
+    }
+    .popular-product img {
+        height: 165px;
+    }
+    .snack-oreo-evergreen-summary {
+        padding-right: 10px !important;
+        padding-left: 15px;
+        margin-top: 85px;
+    }
+    .product-wd-50 .element-item-wrapper {
+        height: 350px;
+    }
+    .snack-oreo-evergreen-area {
+        height: 450px;
+        background-image: url(../img/oreo-evergreen/oreo-evergreen-header-mobile.png);
+        background-position: center top;
+        background-size: cover;
+    }
+    .snack-oreo-evergreen-summary h1 {
+        font-size: 22px;
+        letter-spacing: -0.37px;
+        line-height: 24px;
+    }
+    .snack-brand-shear ul li a {
+        height: 32px;
+        width: 32px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .snack-brand-shear ul li a.mail {
+        line-height: 32px;
+    }
+    .all-recipe-isotope .product-wd-50 .element-item-wrapper {
+        height: 350px;
+    }
+    .btn-more {
+        margin: 15px auto 0;
+        margin-bottom: 20px;
+    }
+    .slider-title {
+        height: 55px;
+        left: 50%;
+        width: 328px;
+        transform: translateX(-50%);
+    }
+    .slider-title h4 {
+        font-size: 22px;
+        line-height: 1;
+    }
+    .product-wd-100 .element-item-wrapper {
+        height: 345px;
+    }
+    .snack-all-recipes-area {
+        overflow: hidden;
+        background: #fff;
+        position: relative;
+        z-index: 9;
+    }
+    .snack-footer.brand-footer {
+        padding: 25px 0;
+    }
+    .oreo-image img {
+        height: auto;
+    }
+    .oreo-image {
+        height: auto;
+    }
+    .search-icon {
+        visibility: visible;
+        opacity: 1;
+        z-index: 10000;
+    }
+    .snack-brand-logo ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .snack-branding.snack-white-branding.branding-bg {
+        padding-bottom: 20px;
+    }
+    .snack-branding.snack-white-branding.recipe-mobile {
+        padding-bottom: 40px;
+    }
+    .snack-hero-info p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .snack-all-recipes-area.section-padding {
+        padding-top: 0;
+    }
+    .snack-branding {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .branding-bg:after {
+        height: 468px;
+        background-image: url(../img/bg-2-mobile.png);
+        background-position: center -102px;
+        background-size: cover;
+    }
+    .branding-bg:after {
+        height: 468px;
+        background-image: url(../img/bg-2-mobile.png);
+        background-position: center -102px;
+        background-size: cover;
+    }
+    .snack-hero-area.home-page-hero-area .container {
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    .snack-hero-area.home-page-hero-area .container .row {
+        margin: 0 !important;
+        display: block;
+        flex-wrap: inherit;
+    }
+    .snack-hero-area.home-page-hero-area .container .row .col-md-12 {
+        padding: 0;
+    }
+    .single-slider {
+        border-radius: 0;
+    }
+    .snack-hero-area .owl-nav {
+        display: none
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: 215px;
+        margin-bottom: 15px;
+    }
+    .element-item-wrapper h2 a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .element-title {
+        padding: 7px 15px;
+    }
+    .element-title-box.product-deatils-element-title-box h2 a {
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+    .snack-product-recipe-inner {
+        margin-bottom: 0;
+    }
+    .section-title h3 {
+        font-size: 26px;
+        line-height: 1;
+    }
+    .snack-footer {
+        padding: 0 0 25px;
+    }
+    .footer-copyright p {
+        margin-top: 20px;
+        line-height: 1;
+    }
+    .footer-logo img {
+        width: 80%;
+    }
+    .snack-brand-name h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .snack-deatils-summary h1 {
+        font-size: 32px;
+        line-height: 1;
+        margin-bottom: 8px;
+        margin-top: 15px;
+    }
+    .snack-deatils-featurs {
+        margin-left: -20px;
+    }
+    .snack-single-feture {
+        padding: 10.1px 14px;
+    }
+    .snack-single-feture-lg {
+        margin-top: 10px;
+    }
+    .snack-deatils-single-info-list li {
+        padding-right: 30px;
+    }
+    .snack-deatils-single-info {
+        padding-bottom: 30px;
+    }
+    .snack-deatils.pt-47 {
+        padding-top: 15px;
+    }
+    .snack-more-link-area a {
+        padding: 0 12px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 0;
+    }
+    .snack-more-link-area span {
+        margin-bottom: 15px;
+        margin-left: 0;
+        display: block;
+    }
+    .product-wd-25 {
+        width: 50%;
+    }
+    .product-wd-50 {
+        width: 100%;
+    }
+    .product-wd-25 .element-item-wrapper {
+        height: 215px;
+    }
+    .product-wd-50 .element-item-wrapper.product-deatils-item-wrapper {
+        height: 350px;
+    }
+    .portfolio-inner {
+        overflow: hidden;
+        margin: 0 -7.5px;
+    }
+    .element-item-wrapper h2 a br {
+        display: none;
+    }
+    .product-filter li {
+        margin-bottom: 15px;
+    }
+    .product-filter {
+        padding-top: 20px;
+    }
+    .snack-oreo-related-product .btn-more {
+        margin: 10px auto 0;
+    }
+    .snack-featured-deatils .row .col-md-5 {
+        padding: 0;
+    }
+    .snack-deatils-fetured-img {
+        border-radius: 0;
+    }
+    .snack-deatils-summary p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .snack-deatils-summary p br {
+        display: none;
+    }
+    .snack-single-feture-lg {
+        margin-bottom: 15px;
+    }
+    .snack-brand-shear ul li:last-child {
+        display: none;
+    }
+    .snack-brand-shear ul li a {
+        padding: 0;
+    }
+    .product-wd-25 {
+        width: 49.5%;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 767.98px) {
+    .language-option {
+        visibility: hidden;
+        opacity: 0;
+        z-index: -10000;
+        margin: 0;
+        right: 65px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .element-item-wrapper>img {
+        height: auto;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: auto;
+    }
+    .element-title {
+        padding: 20px 15px;
+    }
+    .element-item-wrapper h2 a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+    .slider-title {
+        width: 300px;
+    }
+    .slider-title h4 a {
+        font-size: 20px;
+    }
+    .section-title h3 {
+        font-size: 22px;
+    }
+    .element-item-wrapper>img {
+        height: auto;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: 186px;
+    }
+    .snack-single-feture-content p {
+        font-size: 15px !important;
+        margin-top: 10px;
+    }
+    .facts-table-content-info p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .product-wd-25 .element-item-wrapper {
+        height: 184px;
+    }
+    .product-wd-50 .element-item-wrapper.product-deatils-item-wrapper {
+        height: auto;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+    .element-item-wrapper>img {
+        height: auto;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: auto;
+    }
+    .element-title {
+        padding: 20px 15px;
+    }
+    .product-wd-25 .element-item-wrapper {
+        height: auto;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767.98px) {
+    .element-item-wrapper>img {
+        height: auto;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: 322px;
+    }
+    .element-title {
+        padding: 20px 15px;
+    }
+    .product-wd-25 .element-item-wrapper {
+        height: auto;
+    }
+    .snack-product-recipe:after {
+        left: 0;
+        top: 50px;
+        height: 211px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .search-icon {
+        visibility: visible;
+        opacity: 1;
+        z-index: 10000;
+        width: 45px;
+        height: 45px;
+        line-height: 40px;
+        right: 80px;
+    }
+    .branding-bg:after {
+        background-position: center 0;
+    }
+    .snack-deatils-featurs.product-feture {
+        padding-bottom: 0;
+    }
+    .snack-deatils-summary h1 {
+        color: #000000;
+        font-size: 32px;
+        letter-spacing: -0.81px;
+        line-height: 1;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .snack-deatils-featurs.product-feture {
+        margin-top: 15px;
+    }
+    .snack-single-feture {
+        margin-bottom: 15px;
+    }
+    .product-wd-50 .element-item-wrapper.product-deatils-item-wrapper {
+        height: 230px;
+    }
+    .product-wd-50 {
+        width: 49.9%;
+    }
+    .product-wd-25 .element-item-wrapper {
+        height: 230px;
+    }
+    .search-form {
+        height: 45px;
+        width: 45px;
+        border: 1px solid #211d1d;
+    }
+    .search-form span.input-group-text {
+        padding: 0 13px;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: auto;
+    }
+    .element-item-wrapper h2 a {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .element-title {
+        padding: 10px 15px;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: 227px;
+    }
+    .element-item-wrapper.product-deatils-item-wrapper.height-auto img {
+        height: 100%;
+    }
+    .snack-brand-name {
+        text-align: center;
+    }
+    .snack-brand-logo.right-logo {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .right-dp-menu {
+        width: 74%;
+        float: left;
+        margin-left: 50px;
+    }
+    .left-dp-menu {
+        width: 13%;
+    }
+    .right-dp-menue-inner {
+        height: auto;
+    }
+    .right-dp-list-menu.recipes-menu li {
+        width: 180px;
+        min-height: 272px;
+    }
+    .related-recipes {
+        margin-left: 20px;
+    }
+    .right-dp-menu.recipies-menu-right .right-dp-menue-inner {
+        width: auto;
+    }
+    .product-wd-100 .element-item-wrapper {
+        height: 303px;
+        overflow: hidden;
+    }
+    .product-wd-25 {
+        width: 24.9%;
+    }
+    .all-recipe-isotope .product-wd-50 .element-item-wrapper {
+        height: 230px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .branding-bg:after {
+        top: 37px;
+    }
+    .related-recipes {
+        margin-left: 20px;
+    }
+    .right-dp-menu.recipies-menu-right .right-dp-menue-inner {
+        width: auto;
+    }
+    .right-dp-list-menu.recipes-menu li {
+        width: 183px;
+        min-height: 272px;
+    }
+    .related-recipes ul li a {
+        font-size: 15px;
+    }
+    .right-dp-menu {
+        width: 76%;
+        float: left;
+        margin-left: 50px;
+    }
+    .left-dp-menu {
+        width: 13%;
+    }
+    .right-dp-menue-inner {
+        height: auto;
+    }
+    .right-dp-list-menu li a img {
+        width: auto;
+        height: auto;
+    }
+    .snack-single-feture-content p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .search-form {
+        height: 45px;
+        width: 295px;
+        border: 1px solid #211d1d;
+    }
+    .search-form span.input-group-text {
+        padding: 0 13px;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: auto;
+    }
+    .element-item-wrapper h2 a {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .element-title {
+        padding: 10px 15px;
+    }
+    .snack-product-recipe-inner .element-item-wrapper {
+        height: 287px;
+    }
+    .element-item-wrapper.product-deatils-item-wrapper.height-auto img {
+        height: 100%;
+    }
+    .snack-brand-logo.right-logo ul {
+        display: flex;
+        align-items: center;
+    }
+    .product-wd-100 .element-item-wrapper {
+        height: 404px;
+        overflow: hidden;
+    }
+    .product-wd-25 {
+        width: 24.9%;
+    }
+    .product-wd-25 .element-item-wrapper {
+        height: 290px;
+    }
+    .all-recipe-isotope .product-wd-50 .element-item-wrapper {
+        height: 290px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .branding-bg:after {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 300px;
+        top: 85px;
+    }
+    .snack-product-recipe:after {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 300px;
+        top: 85px;
+    }
+    .snack-oreo-evergreen-area {
+        height: 360px;
+        background-size: cover;
+    }
+    .snack-oreo-evergreen-area.brand-duplo-ever-green {
+        height: 470px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .branding-bg:after {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 395px;
+    }
+    .snack-oreo-evergreen-area.brand-duplo-ever-green {
+        background-size: cover;
+    }
+    .snack-oreo-evergreen-area.brand-promo-evergreen {
+        background-size: cover;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .branding-bg:after {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .snack-product-recipe:after {
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+    .snack-oreo-evergreen-area {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+    }
+}
+
+@media (min-width: 2100px) {
+    .branding-bg:after {
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .snack-product-recipe:after {
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .snack-product-recipe:after {
+        display: none;
+    }
+}

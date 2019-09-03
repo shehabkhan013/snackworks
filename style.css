@@ -1,0 +1,2387 @@
+/*******************************************
+ *******************************************
+ *
+ * @File: AGN HTML Template
+ * Created by - ThemeEverest
+ *
+ * This file contains the styling for the actual theme, this
+ * is the file you need to edit to change the look of the
+ * theme.
+ *
+ * This files contents are outlined below >>>
+ *
+ *******************************************
+ *******************************************
+ *
+ * == INDEX PAGE CSS
+ *  00 - Common & Reset CSS
+ *  01 - Preloader CSS
+ *  02 - Header Area CSS
+ *  03 - Slider Area CSS
+ *  04 - Brand Area CSS
+ *  05 - Service Area CSS
+ *  06 - About Area CSS
+ *  07 - Skill Area CSS
+ *  08 - Team Area CSS
+ *  09 - Service Area CSS
+ *  10 - Circle Progress Area CSS
+ *  11 - solution Area CSS
+ *  12 - CTA Area CSS
+ *  13 - CountDown Area CSS
+ *  14 - Reviewer Area CSS
+ *  15 - Blog Area CSS
+ *  16 - Sidebar Area CSS
+ *  17 - Pagination Area CSS
+ *  18 - Contact Area CSS
+ *  19 - Breadcrumb Area CSS
+ *  20 - Portfolio Area CSS
+ *  21 - Footer Area CSS
+ *  22 - BackToTop Area CSS
+ *  23 - Clolor CSS
+ */
+
+
+/*-------------------------*/
+
+
+/* 00 - Common & Reset CSS
+/*-------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+    margin: 0;
+    padding: 0;
+    color: #1E2F4F;
+    font-weight: 700;
+}
+
+p,
+pre,
+blockquote {
+    margin: 0;
+    padding: 0 0 16px;
+    font-weight: normal;
+}
+
+code {
+    font-family: Monaco, monospace;
+    font-size: 80%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+ul ul {
+    padding-top: 8px;
+}
+
+li {
+    padding-bottom: 8px;
+}
+
+a {
+    color: #747F92;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1B8CFD;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    padding: 0;
+}
+
+p a,
+li a,
+cite a,
+figcaption a,
+.link-text {
+    text-decoration: none;
+}
+
+.animate {
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.section-padding-130 {
+    padding: 130px 0;
+}
+
+.section-padding-40 {
+    padding: 40px 0;
+}
+
+.section-padding-100 {
+    padding: 100px 0;
+}
+
+.section-padding-65 {
+    padding: 65px 0;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.shadow {
+    box-shadow: 0 0 20px 0 rgba(27, 140, 253, 0.8);
+}
+
+.PT-70 {
+    padding-top: 70px;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.pt-45 {
+    padding-top: 45px;
+}
+
+.pb-45 {
+    padding-bottom: 45px;
+}
+
+.pt-47 {
+    padding-top: 47px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.devider {
+    height: 1px;
+    background-color: #D8D8D8;
+}
+
+.btn {
+    border: 1px solid #1B8CFD;
+    background-color: #1B8CFD;
+    line-height: normal;
+    cursor: pointer;
+    padding: 14.4px 41.65px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 3px 24px 0 rgba(27, 140, 253, 0.35);
+    box-shadow: 0 3px 24px 0 rgba(27, 140, 253, 0.35);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn:hover,
+.btn:active {
+    color: #1B8CFD;
+    background-color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+    -webkit-box-shadow: 0 10px 22px 0 rgba(27, 140, 253, 0.1);
+    box-shadow: 0 10px 22px 0 rgba(27, 140, 253, 0.1);
+}
+
+.btn-border {
+    height: 50px;
+    border: 1px solid #D8D8D8;
+    border-radius: 32.5px;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #646464;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    transition: all .3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    display: inline-block;
+    line-height: 50px;
+}
+
+.btn-border:hover {
+    border-color: #4F2271;
+    background-color: #4F2271;
+    color: #fff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    outline: none;
+}
+
+.btn-white {
+    border: 1px solid #fff;
+    background-color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #1B8CFD;
+    display: inline-block;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-white:hover,
+.btn-white:active {
+    border-color: #1B8CFD;
+    background-color: #1B8CFD;
+    color: #fff;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 20px 0 rgba(27, 140, 253, 0.8);
+    box-shadow: 0 0 20px 0 rgba(27, 140, 253, 0.8);
+}
+
+.section-title {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.section-title h2 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.67px;
+    line-height: 54px;
+}
+
+.section-title.section-title-green h2 {
+    color: #4F2271;
+}
+
+
+/**
+ * Simple fade transition,
+ */
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+
+
+/*-------------------------*/
+
+
+/* 01 - Header CSS
+/*-------------------------*/
+
+.body-overlay {
+    position: relative;
+    z-index: 999999999999;
+}
+
+.body-overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    z-index: 1;
+    opacity: .56;
+}
+
+.snacks-header {
+    background-color: #000000;
+    padding-top: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.snacks-header.brand-default-header,
+.snack-branding.brand-default-branding {
+    background-color: #0259CF;
+}
+
+.snacks-header.snack-white-header,
+.snack-branding.snack-white-branding {
+    background-color: #fff;
+}
+
+.snacks-header nav {
+    height: 70px;
+    border-radius: 8px;
+    background-image: url(assets/img/header-bg.png);
+    position: relative;
+    z-index: 100;
+}
+
+.snacks-header .navbar.active {
+    position: relative;
+    z-index: 10;
+}
+
+.navbar-nav li a {
+    color: #FFFFFF;
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.37px;
+    line-height: 30px;
+    padding: 0 15px !important;
+}
+
+.mobile-sub-menu {
+    display: none;
+}
+
+li.item.active .mobile-sub-menu {
+    display: block;
+}
+
+.search-form {
+    height: 45px;
+    width: 437px;
+    border: 1px solid #714D8C;
+    border-radius: 22.5px;
+    background-color: #4F2271;
+    margin-right: 62px;
+}
+
+.search-form input {
+    background: transparent;
+    border: none;
+    padding: 0 15px 0 0;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.37px;
+}
+
+.search-form span.input-group-text {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0 15px;
+}
+
+.search-form .input-group .input-group-prepend {
+    height: 45px;
+}
+
+.search-form .input-group {
+    width: 100%;
+    height: 45px;
+}
+
+.search-form input:focus {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+.search-form input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.37px;
+}
+
+.mobile-search input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.37px;
+    line-height: 45px;
+}
+
+.search-form input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.37px;
+}
+
+.mobile-search input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.37px;
+    line-height: 40px;
+}
+
+.search-form input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.37px;
+}
+
+.mobile-search input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.37px;
+    line-height: 40px;
+}
+
+.search-form input:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.37px;
+}
+
+.mobile-search input:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.37px;
+    line-height: 40px;
+}
+
+.language-option {
+    height: 45px;
+    width: 45px;
+    border: 1px solid #211d1d;
+    border-radius: 22.5px;
+    display: block;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 16px;
+    letter-spacing: -0.27px;
+    font-weight: 800;
+    margin-left: 13px;
+    cursor: pointer;
+    background-color: #4F2271;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+}
+
+.language-option.language-mobile {
+    visibility: visible;
+    opacity: 1;
+    z-index: 10000;
+    transition: all .3s ease-in-out;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: bottom;
+    content: "\f107";
+    border-top: none;
+    border-right: none;
+    border-bottom: 0;
+    border-left: none;
+    font-family: fontAwesome;
+    color: #957aa9;
+}
+
+.snacks-header .navbar-nav li {
+    padding-bottom: 0;
+}
+
+
+/*!
+ * Yamm!3
+ * Yet another megamenu for Bootstrap 3 and 4
+ * 
+ * https://geedmo.github.com/yamm3
+ */
+
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+    position: static;
+}
+
+.yamm .container {
+    position: relative;
+}
+
+.yamm .dropdown-menu {
+    left: auto;
+    padding: 0.5rem 0 30px;
+}
+
+.yamm .nav.navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+.navbar .inactive {
+    display: none
+}
+
+.yamm .yamm-content {
+    padding: 20px 30px;
+}
+
+.yamm .dropdown.yamm-fw .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+
+.list-unstyled,
+.list-unstyled ul {
+    min-width: 120px
+}
+
+@media ( min-width: 767px) {
+    .panel-group {
+        width: 400px;
+    }
+    .thumbnail {
+        margin: 0;
+    }
+}
+
+
+/* Grid demo styles */
+
+.grid-demo {
+    padding: 10px 30px;
+}
+
+.grid-demo [class*="col-"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2;
+    background-color: #F7F5F9;
+    border-radius: 8px;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    text-shadow: none;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+    line-height: 26px;
+    padding: 0;
+    cursor: pointer;
+    background: #fff;
+    margin-top: 0;
+    margin-right: 6px;
+    transition: all .3s ease-in-out;
+}
+
+.close:hover {
+    color: #fff;
+    background-color: #4F2271;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.close img {
+    margin-left: 1px;
+}
+
+.left-dp-menu {
+    width: 13%;
+    float: left;
+    height: 550px;
+    position: relative;
+    padding: 10px 0;
+}
+
+.right-dp-menu {
+    width: 1010px;
+    float: left;
+    margin-left: 9px;
+}
+
+.right-dp-menue-inner {
+    background-color: #F7F5F9;
+    height: 550px;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.chocolate-icon {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.right-dp-list-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.right-dp-list-menu li {
+    display: inline-block;
+    padding: 0;
+}
+
+.right-dp-list-menu li a {
+    display: block;
+    padding: 0 !important;
+}
+
+.right-dp-list-menu li a img {
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+}
+
+.right-dp-list-menu li a:hover img {
+    transform: scale(1.08);
+}
+
+.right-dp-list-menu.recipes-menu li .btn-border {
+    width: 125px;
+    color: #714D8C;
+    line-height: 45px;
+    font-size: 18px;
+    border-color: #714D8C;
+    height: 45px;
+}
+
+.right-dp-list-menu.recipes-menu li a:hover img {
+    transform: scale(1);
+}
+
+.right-dp-list-menu.recipes-menu li .btn-border:hover {
+    color: #fff;
+}
+
+.right-dp-list-menu li a img {
+    width: 164px;
+    height: 164px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #4F2271;
+    background-color: transparent;
+}
+
+.nav-pills .nav-link,
+.portfolio-filter ul li a {
+    color: #9479A9;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    line-height: 20px;
+    font-weight: 800;
+    padding: 10px 15px !important;
+    display: block;
+}
+
+.tab-content>.active {
+    position: relative;
+    z-index: 1;
+}
+
+.tab-content>.active:after {
+    content: "";
+    height: 24px;
+    width: 24px;
+    background-color: #F7F5F9;
+    left: -15px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.tab-content>.chocplate.active:after,
+.tab-content>.all.active:after {
+    top: 22px;
+}
+
+.tab-content>.candy.active:after,
+.tab-content>.sweet.active:after {
+    top: 58px;
+}
+
+.tab-content>.cookies.active:after,
+.tab-content>.savoury.active:after {
+    top: 99px;
+}
+
+.tab-pane.cookies>img,
+.tab-pane.crackers>img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.tab-pane.cookies,
+.tab-pane.crackers {
+    padding: 20px 0;
+}
+
+.tab-content>.crackers.active:after,
+.tab-content>.entertaining.active:after {
+    top: 140px;
+}
+
+.tab-content>.cough.active:after,
+.tab-content>.holiday.active:after {
+    top: 185px;
+}
+
+.right-dp-list-menu.recipes-menu li {
+    float: left;
+    width: 200px;
+    margin: 7.5px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
+    overflow: hidden;
+}
+
+.right-dp-list-menu.recipes-menu {
+    overflow: hidden;
+    padding: 7.5px;
+}
+
+.right-dp-menu.recipies-menu-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-dp-menu.recipies-menu-right .right-dp-menue-inner {
+    width: 880px;
+}
+
+.related-recipes h5 {
+    display: block;
+    color: #4F2271;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    line-height: 30px;
+    font-weight: 800;
+    padding: 0 !important;
+}
+
+.related-recipes ul {
+    margin: 0;
+    padding: 0;
+}
+
+.related-recipes ul li a {
+    font-size: 17px;
+    color: #000;
+    padding: 0 !important;
+    font-weight: 600;
+    letter-spacing: -0.28px;
+    line-height: 32px;
+}
+
+.right-dp-list-menu.recipes-menu li a h4 {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: -0.25px;
+    line-height: 26px;
+    padding: 9px 15px;
+}
+
+.right-dp-list-menu.recipes-menu li a img {
+    width: 100%;
+    height: 200px;
+}
+
+.right-dp-list-menu.recipes-menu li:last-child {
+    border: none;
+    background: transparent;
+    min-height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Mobile Menu CSS */
+
+.mobile-menu {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: 1px solid #211d1d;
+    border-radius: 50%;
+    z-index: 999;
+    text-align: center;
+    line-height: 37px;
+    cursor: pointer;
+    background-color: #4F2271;
+}
+
+.mobile-menu .menu-open {
+    width: 16px;
+    height: 14.22px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.mobile-menu.active .menu-open {
+    display: none;
+}
+
+.mobile-search input[type="search"] {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid #211d1d;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    text-indent: -9999px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    z-index: 2;
+}
+
+.mobile-search input[type="search"]:focus {
+    border: 1px solid #211d1d;
+    text-indent: 0;
+    width: 350px;
+    background: #4F2271;
+    height: 45px;
+    cursor: text;
+    border-radius: 22.5px;
+    box-shadow: none;
+    outline: none;
+    z-index: 1;
+    color: #fff;
+}
+
+.mobile-search:after {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    content: "";
+    background: transparent;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-image: url(assets/img/search-glass.png);
+    background-size: cover;
+    padding: 8px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.mobile-search {
+    position: absolute;
+    right: 65px;
+    top: 50%;
+    z-index: 9999;
+    background: #4F2271;
+    border-radius: 22.5px;
+    display: none;
+    transform: translateY(-50%);
+}
+
+.mobile-menu-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: -20px;
+    z-index: 100;
+    background: #4F2271;
+    padding: 7.5px 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    padding-top: 70px;
+    padding-bottom: 146px;
+}
+
+.mobile-menu-wrapper.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mobile-menu-wrapper:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 146px;
+    content: "";
+    background-image: url(assets/img/menu-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    z-index: -1;
+}
+
+.mobile-menu-list li a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.33px;
+    font-weight: 800;
+}
+
+.mobile-menu-list li {
+    padding: 0;
+}
+
+.mobile-menu-list li.menu-heading {
+    color: #9479A9;
+    font-size: 22px;
+    letter-spacing: -0.37px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.mobile-menu .menu-close {
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.mobile-menu.active {
+    background-color: #180432;
+    border-color: #180432;
+}
+
+.mobile-menu .menu-open {
+    display: block;
+}
+
+.mobile-menu.active .menu-close {
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.mobile-menu-list.active {
+    opacity: 0;
+    z-index: -1;
+}
+
+li.item.active {
+    display: block !important;
+}
+
+li.item.active>a {
+    display: none;
+}
+
+.back-element {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #714D8C;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 21px;
+    color: #fff;
+    z-index: 1000000;
+    display: none;
+}
+
+.back-element.active {
+    display: block;
+}
+
+
+/*-------------------------*/
+
+
+/* 02 - Snack Brand CSS
+/*-------------------------*/
+
+.snack-deatils-fetured-img {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.snack-deatils-fetured-img img {
+    width: 100%;
+}
+
+.snack-branding {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.snack-brand-logo ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+.snack-brand-logo ul li a {
+    padding: 0 10px;
+    display: block;
+}
+
+.snack-brand-logo ul li:first-child a {
+    padding-left: 0;
+}
+
+.snack-brand-shear ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+.snack-brand-shear ul li a {
+    display: block;
+    padding: 0;
+    height: 48px;
+    width: 48px;
+    line-height: 51px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 2px;
+    box-shadow: 0 2px 4px -1px rgba(9, 30, 66, .6);
+    transform: translate(0);
+    transition: 400ms;
+}
+
+.snack-brand-shear ul li a:hover {
+    box-shadow: 0 6px 12px -3px rgba(9, 30, 66, .4);
+    transform: translate(0, -3px);
+}
+
+.snack-brand-shear ul li a.pintarest {
+    background-color: #BF0112;
+}
+
+.snack-brand-shear ul li a.facebook {
+    background-color: #0259CF;
+}
+
+.snack-brand-shear ul li a.twitter {
+    background-color: #00acee;
+}
+
+.snack-brand-shear ul li a.twitter {
+    background-color: #00acee;
+}
+
+.snack-brand-shear ul li a.mail {
+    background-color: #9D9C9C;
+    line-height: 47px;
+}
+
+.snack-brand-shear ul li a.print {
+    background-color: #9D9C9C;
+}
+
+.snack-brand-shear ul li:last-child a {
+    margin-right: 0;
+}
+
+.snack-brand-name h2 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    line-height: 41px;
+}
+
+.snack-brand-logo.right-logo li a {
+    width: 90%;
+    padding: 0 1px;
+}
+
+.single-slider {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.slider-title {
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 1px 3px 0 rgba(255, 255, 255, 0.5), 0 6px 10px 1px rgba(0, 0, 0, 0.32);
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    width: 345px;
+    padding: 15px;
+    z-index: 10000;
+}
+
+.slider-title h4 a {
+    color: #000000;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.38px;
+    line-height: 1;
+}
+
+.slider-title .heart-link {
+    position: absolute;
+    right: 15px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.branding-bg {
+    position: relative;
+    z-index: 1;
+}
+
+.branding-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    content: "";
+    height: 500px;
+    z-index: -1;
+    background-image: url(assets/img/hero/bg-2.png);
+    background-position: 16px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.snack-branding.snack-white-branding.branding-bg {
+    padding-bottom: 30px;
+}
+
+.snack-brand-name.center-brand-name h2 {
+    margin-bottom: 5px;
+}
+
+.section-title h3 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 32px;
+    letter-spacing: -0.53px;
+    line-height: 43px;
+    text-align: center;
+}
+
+
+/*-------------------------*/
+
+
+/* 03 - Snack Hero CSS
+/*-------------------------*/
+
+.snack-hero-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 535px;
+    position: relative;
+}
+
+.snack-hero-area.duplo-hero {
+    background-image: url(assets/img/hero/wiz-md-bg.png);
+}
+
+.snack-hero-area.home-page-hero-area {
+    height: auto;
+    position: relative;
+    z-index: 9;
+}
+
+.snack-hero-img {
+    margin-top: 65px;
+}
+
+.snack-hero-info {
+    margin-top: 60px;
+}
+
+.snack-hero-info.duplo-info-summary {
+    padding-right: 21px;
+}
+
+.snack-hero-info-bottom-img {
+    position: absolute;
+    left: 20%;
+    bottom: -70px;
+}
+
+.snack-oreo-evergreen-area {
+    height: 689px;
+    background-image: url(assets/img/oreo-evergreen/oreo-evergreen-header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+
+.snack-hero-info p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.snack-hero-video img {
+    width: 100%;
+    height: 100%;
+}
+
+.snack-video-btn {
+    height: 72px;
+    width: 72px;
+    border-radius: 50px;
+    background-color: rgba(79, 34, 113, 0.8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    line-height: 72px;
+    font-size: 22px;
+    transition: all .3s ease-in-out;
+}
+
+.snack-video-btn:hover {
+    background-color: #fff;
+    color: #4F2271;
+}
+
+.snack-video-btn i {
+    margin-left: 5px;
+}
+
+.snack-hero-area .owl-nav {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.snack-hero-area .owl-nav .owl-next {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    z-index: 9;
+}
+
+.snack-hero-area .owl-nav .owl-prev {
+    left: 30px;
+    position: absolute;
+}
+
+.owl-nav button {
+    height: 48px;
+    width: 48px;
+    background-color: rgba(0, 0, 0, .24) !important;
+    border-radius: 50%;
+}
+
+.owl-nav button:hover {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.snack-hero-area .owl-nav button i {
+    color: #fff;
+}
+
+.snack-hero-area .owl-nav button:focus {
+    outline: none;
+    border-radius: 50%;
+}
+
+
+/*-------------------------*/
+
+
+/* 03 - Snack Hero CSS
+/*-------------------------*/
+
+.snack-oreo-evergreen-summary.brand-duplo-summary {
+    padding-right: 0;
+}
+
+.snack-oreo-evergreen-summary {
+    padding-right: 40px;
+}
+
+.snack-oreo-evergreen-summary h1 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: -0.8px;
+    line-height: 54px;
+}
+
+.snack-oreo-evergreen-summary p {
+    color: #98D1F3;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 29px;
+}
+
+.oreo-image {
+    height: 695px;
+    overflow: hidden;
+}
+
+.oreo-image img {
+    width: 100%;
+    height: 695px;
+}
+
+
+/*-------------------------*/
+
+
+/* 04 - Snack Oreo Product CSS
+/*-------------------------*/
+
+.snack-oreo-product {
+    background-image: url(assets/img/bg-dot.png);
+}
+
+.hidden {
+    visibility: hidden;
+    width: 0px!important;
+    height: 0px!important;
+    margin: 0px!important;
+    padding: 0px!important;
+}
+
+
+/* clear fix */
+
+.isotope:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ---- .element-item ---- */
+
+.element-item>* {
+    margin: 0;
+    padding: 0;
+}
+
+.snack-product-filter {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.snack-product-filter h2 {
+    float: left;
+}
+
+.product-filter {
+    border: 1px solid #E5E5E5;
+    border-radius: 30px;
+    padding: 5px 13px;
+    display: inline-block;
+}
+
+.product-filter li {
+    height: 40px;
+    color: #4F2271;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 32.5px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(148, 121, 169, 0.64);
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 38px 8px 15px;
+    line-height: 23px;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.product-filter li:nth-child(2) {
+    padding: 8px 15px !important;
+}
+
+.product-filter li.is-checked,
+.product-filter li:hover {
+    background-color: #4F2271;
+    color: #fff;
+}
+
+.product-filter li+li:after {
+    position: absolute;
+    right: 13px;
+    top: 9px;
+    content: "\efc2";
+    width: 15px;
+    height: 15px;
+    font-family: IcoFont;
+    font-size: 11px;
+}
+
+.product-filter li.refresh {
+    border: none;
+    padding: 0;
+    height: auto;
+    background: none;
+    color: #714D8C;
+    padding-left: 9px;
+}
+
+.product-filter li.refresh:after {
+    content: "";
+}
+
+.product-filter span {
+    opacity: 0.48;
+    color: #4F2271;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.btn-more {
+    width: 225px;
+    margin: 50px auto 0;
+    display: inherit;
+    position: relative;
+    padding-left: 27px;
+}
+
+.btn-more i {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-more:focus {
+    outline: none;
+}
+
+.btn-more i {
+    color: #B7B7B7;
+}
+
+.element-item {
+    margin-bottom: 15px !important;
+    padding: 0 7.5px;
+}
+
+.element-item-wrapper {
+    border: 1px solid #D3D3D3;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+
+.element-title {
+    padding: 20px 15px;
+}
+
+.element-title-box h2 a {
+    color: #fff !important;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.33px;
+    transition: all .3s ease-in-out;
+}
+
+.element-title-box {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.element-title-box.product-deatils-element-title-box {
+    top: 15px;
+    left: 15px;
+    width: auto;
+    text-align: left;
+    height: auto;
+}
+
+.element-title-box.product-deatils-element-title-box h2 a {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.38px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.element-title-box.product-deatils-element-title-box p {
+    color: #B6BCC6;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.element-item-wrapper h2 a {
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.33px;
+    line-height: 26px;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.element-item-wrapper h2 a:hover,
+.element-title-box h2 a:hover {
+    color: #4F2271 !important;
+}
+
+.element-item-wrapper img {
+    width: 100%;
+}
+
+.product-wd-25 {
+    width: 25%;
+}
+
+.product-wd-50 {
+    width: 50%;
+}
+
+.product-wd-100 {
+    width: 100%;
+}
+
+.element-item.product-wd-100.sweet.brands.product {
+    margin-bottom: 30px !important;
+}
+
+.product-wd-100 .element-item-wrapper {
+    height: 490px;
+    overflow: hidden;
+}
+
+.portfolio-inner .product-item {
+    float: left;
+    padding: 15px;
+}
+
+.portfolio-inner {
+    overflow: hidden;
+    margin: 0 -15px;
+}
+
+.relative {
+    position: relative;
+}
+
+.product-wd-50 .element-item-wrapper img {
+    height: 100%;
+}
+
+.product-wd-25 .product-item-inner {
+    height: 265px;
+    width: 100%;
+}
+
+.product-wd-50 .product-item-inner {
+    height: 560px;
+    width: 100%;
+}
+
+.product-wd-25 .element-item-wrapper {
+    height: 380px;
+}
+
+.product-wd-50 .element-item-wrapper {
+    height: 774px;
+}
+
+.all-recipe-isotope .product-wd-50 .element-item-wrapper {
+    height: 380px;
+}
+
+.product-wd-50 .element-item-wrapper.product-deatils-item-wrapper {
+    height: 380px;
+}
+
+.product-item-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-item-inner .icon li a:hover {
+    text-shadow: 0 0 6px #fff;
+    border-radius: 50%;
+}
+
+.snack-product-recipe-inner {
+    margin-bottom: 15px;
+}
+
+
+/*----------------------------------------*/
+
+
+/* 05 - Snack Oreo Popular Product CSS
+/*---------------------------------------*/
+
+.snack-popular-product {
+    background-image: url(assets/img/bg-dot.png);
+}
+
+.heart-link {
+    height: 40px;
+    width: 40px;
+    border: 4px solid #A42222;
+    border-radius: 50px;
+    background-color: #A42222;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: none;
+}
+
+.heart-link i {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.heart-link i:before {
+    font-family: fontawesome;
+    content: '\f08a';
+    font-style: normal;
+}
+
+.heart-link span {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transition: .6s;
+    z-index: -2;
+    font-size: 2px;
+    color: transparent;
+    font-weight: 400;
+}
+
+.heart-link i.press {
+    animation: size .4s;
+    color: #fff;
+}
+
+.heart-link i.press:before {
+    content: '\f004';
+}
+
+.heart-link span.press {
+    bottom: 120px;
+    font-size: 14px;
+    visibility: visible;
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    0% {
+        color: transparent;
+    }
+    10% {
+        color: #1B8CFD;
+    }
+    100% {
+        color: transparent;
+    }
+}
+
+@keyframes size {
+    0% {
+        /* padding: 10px 12px 8px; */
+        padding: 0;
+    }
+    50% {
+        /* padding: 14px 16px 12px; */
+        padding: 0;
+        margin-top: -4px;
+    }
+    100% {
+        padding: 0;
+        /* padding: 10px 12px 8px; */
+    }
+}
+
+
+/* .heart-link i {
+    color: #fff;
+} */
+
+.popular-product {
+    height: 370px;
+}
+
+.popular-product img.h-100 {
+    height: 100%;
+}
+
+.element-title-left-position {
+    position: absolute;
+    left: 15px;
+    bottom: 40px;
+}
+
+.element-title-left-position h2 a {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.33px;
+    line-height: 44px;
+}
+
+.video-time {
+    opacity: 0.48;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: -0.33px;
+    line-height: 44px;
+    position: absolute;
+    right: 15px;
+    bottom: 40px;
+}
+
+.popular-product-btn-wrapper a {
+    width: 225px;
+    margin-top: 40px;
+}
+
+
+/*----------------------------------------*/
+
+
+/* 05 - Snack Footer CSS
+/*---------------------------------------*/
+
+.snack-footer {
+    padding: 85px 0;
+    background-image: url(assets/img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 44%;
+}
+
+.snack-footer.brand-footer {
+    background-image: url(assets/img/footer-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-logo-link li {
+    display: inline-block;
+    padding: 0;
+}
+
+.product-logo-link {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.product-logo-link li a {
+    display: block;
+}
+
+.widget-menu-link li {
+    padding: 0;
+}
+
+.widget-menu-link li a {
+    color: #9D9C9C;
+    font-size: 14px;
+    letter-spacing: -0.23px;
+    line-height: 22px;
+    display: block;
+    transition: all .3s ease-in-out;
+    font-weight: 400;
+}
+
+.widget-menu-link li a:hover {
+    color: #4F2271;
+}
+
+.footer-copyright a {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.footer-copyright p {
+    color: #9D9C9C;
+    font-size: 13px;
+    letter-spacing: -0.22px;
+    line-height: 28px;
+    padding: 0;
+}
+
+
+/*----------------------------------------*/
+
+
+/* 06 - Snack Deatils CSS
+/*---------------------------------------*/
+
+.snack-deatils-area {
+    padding-top: 30px;
+}
+
+.snack-featured-deatils {
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.snack-deatils-summary {
+    padding-left: 20px;
+}
+
+.snack-deatils-summary h1 {
+    color: #000000;
+    font-size: 52px;
+    letter-spacing: -0.81px;
+    line-height: 44px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.snack-deatils-summary p {
+    color: #636362;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.snack-deatils-featurs {
+    background-color: #EBF9FD;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.snack-deatils-featurs.product-feture {
+    margin-top: 55px;
+}
+
+.snack-single-feture {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.snack-single-feture h3 {
+    color: #A42222;
+    font-size: 22px;
+    letter-spacing: -0.34px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.snack-single-feture-content p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0;
+}
+
+.snack-deatils-recipe-feture .snack-single-feture h3 {
+    color: #A42222;
+    font-size: 17px;
+    letter-spacing: -0.34px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.snack-deatils-recipe-feture .snack-single-feture-content p {
+    color: #9D9C9C;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0;
+}
+
+.snack-deatils-facts {
+    border: 1px solid #E1E1E1;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.snack-deatils-info h4 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.34px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.snack-deatils-info span {
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.amount {
+    border-top: 5px solid #000;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.amount strong {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.amount p {
+    color: #000000;
+    font-size: 16px;
+    text-align: right;
+    padding: 0;
+    line-height: 1;
+}
+
+.deatils-list li {
+    border-top: 1px solid #000;
+    padding: 5px 0;
+}
+
+.deatils-list li:last-child {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.deatils-fact-list li {
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+}
+
+.deatils-fact-list li .fat-list-item p {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.deatils-fact-list li:nth-child(11) {
+    border-bottom: 2px solid #000;
+}
+
+.fat-list-item.pl-15 {
+    padding-left: 15px;
+}
+
+p.pragraph-info {
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.facts-table-head {
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+}
+
+.facts-table-head-info p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0;
+}
+
+.facts-table-content {
+    margin-top: 5px;
+}
+
+.facts-table-content-info p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+    padding: .6px 0;
+}
+
+.snack-product-filter h2 {
+    display: inline-block;
+}
+
+.oreo-product-link {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: block;
+}
+
+.snack-deatils h4 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.34px;
+    line-height: 30px;
+    margin-bottom: 17px;
+}
+
+.snack-deatils h5 {
+    margin-bottom: 8px;
+}
+
+.snack-deatils p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 25px;
+    width: auto;
+    z-index: 1;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.owl-dots .owl-dot {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.owl-dots .owl-dot:focus {
+    outline: none;
+}
+
+.owl-dots .owl-dot span {
+    height: 8px;
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.56);
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: block;
+    border-radius: 4px;
+}
+
+.owl-dots .owl-dot.active span {
+    height: 8px;
+    width: 25px;
+    background-color: #fff;
+}
+
+.recipe-fetured-product h4 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.34px;
+    line-height: 30px;
+    margin-top: 31px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.snack-deatils-summary-info {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.snack-deatils-summary-info h5 {
+    color: #4F2271;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.34px;
+    line-height: 30px;
+}
+
+.snack-deatils-single-info-list li {
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 18px 0 0;
+}
+
+.snack-deatils-single-info-list.list-number li {
+    padding-left: 25px;
+}
+
+.snack-deatils-single-info-list.list-number li span {
+    position: absolute;
+    left: 0;
+}
+
+.snack-deatils-single-info-list li span {
+    color: #A42222;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.snack-deatils-info>p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding: 0;
+}
+
+.deatils-recipe-list-info li .fat-list-item p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 34px;
+    padding: 0;
+}
+
+.deatils-recipe-list-info li {
+    padding: .5px 0;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.deatils-recipe-list-info li:last-child {
+    border: none;
+}
+
+.btn-expend {
+    position: absolute;
+    bottom: -15px;
+    z-index: 999;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    transition: all .3s ease-in-out;
+    color: #4F2271;
+}
+
+.btn-expend:hover {
+    color: #4F2271;
+}
+
+.deatils-info-overlay {
+    position: relative;
+    max-height: 350px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.deatils-info-overlay.-expanded {
+    max-height: 100%;
+    padding-bottom: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.deatils-info-overlay:not(.-expanded)::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url(assets/img/recipe-deatils/Overlay.png);
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .3s ease-in-out;
+}
+
+.deatils-info-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.snack-deatils-info h5 {
+    line-height: 19px;
+}
+
+.snack-more-link-area {
+    border: 1px solid #D8D8D8;
+    border-left: none;
+    border-right: none;
+    padding: 30px 0;
+}
+
+.snack-more-link-area a {
+    padding: 0 17px;
+    border-color: #9479A9;
+    color: #714D8C;
+    font-weight: 700;
+    margin-left: 7px;
+}
+
+.snack-more-link-area span {
+    color: #4F2271;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.34px;
+    line-height: 30px;
+}
+
+.snack-product-recipe {
+    position: relative;
+    z-index: 1;
+}
+
+.snack-product-recipe:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    content: "";
+    background-image: url(assets/img/hero/bg-2.png);
+    height: 395px;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.snack-product-recipe-inner .element-item-wrapper {
+    height: 365px;
+}
+
+.snack-product-recipe-inner {
+    margin-bottom: 15px;
+    display: none;
+}
+
+.snacks-header.snack-header-alt {
+    background-image: url(assets/img/header-bg--alt.png);
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.snacks-header.snack-header-alt nav {
+    height: 70px;
+    border-radius: 0;
+    background: none;
+    position: relative;
+    z-index: 100;
+}
